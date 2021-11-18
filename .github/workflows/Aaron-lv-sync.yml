@@ -45,5 +45,5 @@ jobs:
         with:
           source_repo: "https://github.com/Aaron-lv/sync.git"
           source_branch: "jd_scripts"
-          destination_branch: "Aaron-lv"
+          destination_branch: "Aaron-lv/jd_scripts"
           github_token: ${{ secrets.PAT }}
