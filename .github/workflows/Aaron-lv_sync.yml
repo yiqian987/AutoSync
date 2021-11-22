@@ -1,4 +1,4 @@
-name: jiulan_platypus
+name: Aaron-lv_sync
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync jiulan_platypus
+    types: sync Aaron-lv_sync
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync jiulan_platypus
+      - name: sync Aaron-lv_sync
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/jiulan/platypus.git"
-          source_branch: "main"
-          destination_branch: "jiulan_platypus"
+          source_repo: "https://github.com/Aaron-lv/sync.git"
+          source_branch: "jd_scripts"
+          destination_branch: "Aaron-lv_sync"
           github_token: ${{ secrets.PAT }}
