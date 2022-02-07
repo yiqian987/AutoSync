@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/Aurora209/Scripts.git"
-          source_branch: "jd_scripts"
+          source_branch: "main"
           destination_branch: "Aurora209_Scripts"
           github_token: ${{ secrets.PAT }}
