@@ -1,7 +1,7 @@
 name: passerby-b_JDDJ
 on:
   schedule:
-    - cron: '1 */3 * * *'
+    - cron: ''
   workflow_dispatch:
   watch:
     types: started
