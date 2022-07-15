@@ -2,6 +2,9 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aurora209&theme=dark&show_icons=true)
 <!-- (https://github.com/anuraghazra/github-readme-stats) -->
 
+## 依赖安装脚本
+https://github.com/FlechazoPh/QLDependency/blob/main/Shell/XinQLOneKey.sh
+
 ## 【青龙拉取脚本】
 <!-- 第一个要素： ql raw 或者 ql repo （拉取单个文件或拉取整个库）
 第二个要素： 一个git库地址
