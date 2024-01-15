@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/6dylan6/jdpro.git"
-          source_branch: "jd_scripts"
+          source_branch: "main"
           destination_branch: "6dylan6_sync"
           github_token: ${{ secrets.PAT }}
