@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Aaron-lv_sync
+      - name: sync 6dylan6_sync
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/6dylan6/jdpro.git"
           source_branch: "jd_scripts"
-          destination_branch: "Aaron-lv_sync"
+          destination_branch: "6dylan6_sync"
           github_token: ${{ secrets.PAT }}
